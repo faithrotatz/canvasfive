@@ -1,1 +1,6 @@
 #canvas1{border:1px solid black;display:block;}
+#huiqi{position:absolute;
+       right:200px;
+       top:200px; 
+     
+width:100px;height:100px;background:pink;}
