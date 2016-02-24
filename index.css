@@ -1,6 +1,64 @@
-#canvas1{border:1px solid black;display:block;}
+#canvas1{border:1px solid black;display:block;margin:0 auto;position:absolute;left:50%;top:0;margin-left:-320px;z-index:1000}
+
+#canvas2{border:1px solid black;display:block;margin:0 auto;position:absolute;left:50%;top:0;margin-left:-320px;z-index:100;background:url(wood.jpg);}
+
 #huiqi{position:absolute;
-       right:200px;
-       top:200px; 
-     
-width:100px;height:100px;background:pink;}
+       right:20%;
+       top:20%; 
+       color:white;
+       line-height:50px;
+       font-size:20px;
+       cursor:pointer;
+       text-align:center;
+ width:150px;height:50px;
+ border-radius:30px;
+ background-image:-webkit-linear-gradient(top,#cb9f6e,#ce8a49)}
+#clear,#item{position:absolute;
+       right:20%;
+       top:30%; 
+       cursor:pointer;
+       color:white;
+       line-height:50px;
+       font-size:20px;
+       text-align:center;
+ width:150px;height:50px;
+ border-radius:30px;
+ background-image:-webkit-linear-gradient(top,#cb9f6e,#ce8a49)}
+#item{position:absolute;
+       right:20%;
+       top:40%;}
+body{padding:0;margin:0;}
+body{margin:0;background-image:url(woodfloor.jpg)}
+#time{position:absolute;;left:10%;
+     top:20%;
+     z-index:10000;
+  
+    }
+#clear:hover{color:black;}
+#huiqi:hover{color:black;}
+#timeshow{
+	position:absolute;
+       left:15%;
+       top:60%; 
+       cursor:pointer;
+       color:white;
+       line-height:50px;
+       font-size:20px;
+       text-align:center;
+ width:150px;height:50px;
+ border-radius:30px;
+ background-image:-webkit-linear-gradient(top,#cb9f6e,#ce8a49)
+}
+#xinxi{
+	position:absolute;
+       left:15%;
+       top:10%; 
+       cursor:pointer;
+       color:white;
+       line-height:50px;
+       font-size:20px;
+       text-align:center;
+ width:150px;height:50px;
+ border-radius:30px;
+ background-image:-webkit-linear-gradient(top,#cb9f6e,#ce8a49)
+}
